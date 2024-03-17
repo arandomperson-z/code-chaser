@@ -5,9 +5,9 @@ import Navbar from './components/Navbar.js'
 function App() {
   const [counter, setCounter] = useState(0);
 
-  useEffect(() => {
-    alert("counter changed" + counter)
-  }, [counter])
+  // useEffect(() => {
+  //   alert("counter changed" + counter)
+  // }, [counter])
 
   return (
     <div className="App">
