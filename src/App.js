@@ -15,6 +15,8 @@ function App() {
       <button onClick={() => setCounter((prevCount) => prevCount - 1)}>-</button>
       <h1>{counter}</h1>
       <button onClick={() => setCounter((prevCount) => prevCount + 1)}>+</button>
+      <br></br>
+      <a href = "/Home.js"> Home </a>
     </div>
   );
 }

@@ -1,0 +1,18 @@
+.Unit {
+    height: 100px;
+    width: 800px;
+    background-color: #1B4965;
+    border-radius: 30px;
+}
+.Circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #62B6CB;
+}
+.TopicDesc {
+    height: 50px;
+    width: 600px;
+    background-color: #62B6CB;
+    border-radius: 30px;
+}
