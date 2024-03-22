@@ -1,21 +1,21 @@
-* { 
+.nav { 
     margin: 0;
 }
 
-nav { 
+.navbar { 
     padding-top: 2%;
     background-color: #1B4995;
     padding-bottom: 3.5%;
     padding-right: 1%;
 }
 
-ul { 
+.navbar_list { 
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
-li { 
+.navbarli { 
     display: inline-block;
     color: #daeffe;
     font-size: 0.6cm;
@@ -38,6 +38,11 @@ li {
     padding-left: 1.5%;
     padding-right: 1.5%;
     font-family: "Lekton", sans-serif;
+}
+
+.navbarHomeLink {
+    text-decoration: none;
+    color:#daeffe;
 }
 
 /* .right:hover { 

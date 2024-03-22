@@ -1,6 +1,7 @@
 import { useState } from "react";
 import React, { Component } from 'react';
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
 	const [viewSubSection, setViewSubSection] = useState(false);
@@ -9,13 +10,13 @@ const Navbar = () => {
 	}
 
 	return (
-		<div>
-			<nav>
-				<ul>
-					<li className="left"><img src="../logo.svg"/></li>
-					<li className="title">Code Chaser</li>
-					<li className="right">Log in</li>
-					<li className="right">Sign up</li>
+		<div className="nav">
+			<nav className="navbar">
+				<ul className="navbar_list">
+					<li className={'navbarli left'}><img src="../logo.svg"/></li>
+					<li className={'navbarli title'}> <Link to="/" className = "navbarHomeLink"> Code Chaser</Link> </li>
+					<li className={'navbarli right'}>Log in</li>
+					<li className={'navbarli right'}>Sign up</li>
 				</ul>
 			</nav>
 		</div> 
