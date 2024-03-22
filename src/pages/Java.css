@@ -1,18 +1,38 @@
 .Unit {
-    height: 100px;
+    height: 150px;
     width: 800px;
     background-color: #1B4965;
-    border-radius: 30px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-family: Comfortaa;
+}
+.sub {
+    font-size: 20px;
+    text-align: center;
+    font-family: Comfortaa;
+}
+.number {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Comfortaa;
 }
 .Circle {
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
     background-color: #62B6CB;
+    margin: 20px;
 }
 .TopicDesc {
-    height: 50px;
+    height: 90px;
     width: 600px;
     background-color: #62B6CB;
-    border-radius: 30px;
+    border-radius: 10px;
 }
