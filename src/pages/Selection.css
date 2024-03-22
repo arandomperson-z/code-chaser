@@ -1,0 +1,12 @@
+.selection_container {
+    display: flex;
+    top: 50%;
+    vertical-align: middle;
+}
+
+.selection_box {
+    flex: 1;
+    margin: 15px;
+    padding: 40px;
+    border: 2px solid #ccc;
+}
